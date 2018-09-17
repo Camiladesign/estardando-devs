@@ -12,6 +12,7 @@
         var tdPeso = paciente.querySelector('.info-peso');
         var tdAltura = paciente.querySelector('.info-altura');
         var tdImc = paciente.querySelector('.info-imc');
+<<<<<<< HEAD
  
         //Variaveis dados da Tabela
         var peso = tdPeso.textContent;
@@ -21,6 +22,16 @@
         var pesoEhValido = validaPeso(peso);
         var alturaEhValido = validaALtura(altura);
 
+=======
+
+        //Variaveis dados da Tabela
+        var peso = tdPeso.textContent;
+        var altura = tdAltura.textContent;
+        
+        //Variaveis de validação
+        var pesoEhValido = validaPeso(peso);
+        var alturaEhValido = validaALtura(altura);
+>>>>>>> b72f246fe34a282b91b6f4437838f613f8ef1d30
 
 
         //Validação altura e ṕeso
@@ -59,6 +70,10 @@ function validaALtura(altura) {
 }
 
 function calculaImc(peso, altura) {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> b72f246fe34a282b91b6f4437838f613f8ef1d30
         var imc = 0;
         imc = peso / (altura * altura);
         return imc.toFixed(2);
