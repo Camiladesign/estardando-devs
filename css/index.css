@@ -143,3 +143,8 @@ button[disabled=disabled], button:disabled {
 	font-weight: bolder;
 	font-style: italic;
 }
+
+.fadeOut {
+	opacity: 0;
+	transition:  1s;
+}

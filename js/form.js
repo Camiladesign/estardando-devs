@@ -35,7 +35,6 @@ function exibeMensagemDeErros(erros) {
         li.textContent = erro;
         ul.appendChild(li);
     });
-
 }
 
 function obtemPacienteDoFormulario(form){
@@ -71,7 +70,7 @@ function montaTd (dado, classe) {
     td.textContent = dado;
     td.classList.add(classe);
 
-    return td;
+    return td; 
 }
  
 function validaPaciente (paciente){

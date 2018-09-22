@@ -6,7 +6,7 @@
     for (var i = 0; i < pacientes.length; i = i + 1){
 
         //Variavel referente ao indice do paciente
-        var paciente = pacientes [i]; 
+        var paciente = pacientes [i];
 
         //Variaveis elementos td
         var tdPeso = paciente.querySelector('.info-peso');
@@ -29,7 +29,6 @@
         //Variaveis de validação
         var pesoEhValido = validaPeso(peso);
         var alturaEhValido = validaALtura(altura);
-
 
 
         //Validação altura e ṕeso
