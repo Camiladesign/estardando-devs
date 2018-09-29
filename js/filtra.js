@@ -1,6 +1,3 @@
-alert(
-)
-debugger
 
 var campoFiltro = document.querySelector('#filtrar-tabela');
 
